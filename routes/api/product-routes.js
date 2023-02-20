@@ -5,11 +5,34 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 
 
 router.get('/', (req, res) => {
- 
+  Product.findAll(
+    {
+      include: [
+        {
+          model: Tag
+        },
+        {
+          model: Category
+        }
+      ]
+    }
+  ).then(results => res.send(results));
 });
 
 
 router.get('/:id', (req, res) => {
+  Product.findByPk(req.params.id, 
+    {
+      include: [
+        {
+          model: Tag
+        },
+        {
+          model: Category
+        }
+      ]
+    }
+  ).then(results => res.send(results));
 
 });
 
