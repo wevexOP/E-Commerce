@@ -8,9 +8,9 @@ Category.init(
   {
     id:{
       type: DataTypes.INTEGER,
-      allNull: false,
+      allowNull: false,
       primaryKey: true,
-      autoIncrement: false,
+      autoIncrement: true,
     },
     category_name:
     {
