@@ -29,6 +29,8 @@ Project is created with:
 
 Copy the repository into your own folder. 
 
+Requirements: You must have MySQL downloaded and setup on your device for the database to be created, and hosted.
+
 To run this project, install it locally using npm:
 
 ```
@@ -45,7 +47,7 @@ npm start
 
 #### Video Demo
 
-[Click me to see the demo video!]()
+[Click me to see the demo video!](https://www.youtube.com/watch?v=A60SmP33ZgY)
 
 #### Insomnia Screenshot
 
