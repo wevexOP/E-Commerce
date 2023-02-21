@@ -51,7 +51,7 @@ npm start
 
 #### Insomnia Screenshot
 
-![Screenshot](./screenshots/e-commerce-sc.png)
+![Screenshot](./screenshots/e-commerce-sc2.png)
 
 ## License
 
